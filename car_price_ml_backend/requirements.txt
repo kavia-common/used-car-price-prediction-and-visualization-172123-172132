@@ -18,3 +18,9 @@ pytest==8.3.5
 webargs==8.6.0
 Werkzeug==3.1.3
 flask-cors==5.0.1
+
+# ML core dependencies (kept minimal)
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.4.2
+joblib==1.4.2
