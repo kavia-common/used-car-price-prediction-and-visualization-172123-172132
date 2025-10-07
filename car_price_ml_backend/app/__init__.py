@@ -11,7 +11,7 @@ def create_app() -> Flask:
     - Loads environment variables from a .env file if present.
     - Configures CORS using ALLOWED_ORIGINS env (default '*').
     - Sets up OpenAPI docs via flask-smorest if available.
-    - Registers health and placeholder ML blueprints (predict, metrics) conditionally.
+    - Registers health, predict, and metrics blueprints.
     - Keeps the app resilient if optional blueprints or model files are absent.
     """
     # Lazy import to keep dependencies minimal at import time
